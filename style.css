@@ -1,0 +1,694 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    
+    background: #101023;
+    background: -moz-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: -webkit-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: linear-gradient(45deg, #101023 0%, #192155 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header {
+    height: 70px;
+    position: sticky;
+    top: 0;
+    background: #101023;
+    background: -moz-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: -webkit-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: linear-gradient(45deg, #101023 0%, #192155 100%);
+    z-index: 5;
+    width: 100%;
+    padding:0 250px;
+}
+
+
+
+.logo img {
+    height: 35px;
+   padding: 0 5px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#bandiera {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+header:last-child {
+    align-items: center;
+}
+
+header span {
+    padding: 0 20px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    cursor: pointer;
+}
+
+header ion-icon {
+    font-size: 18px; 
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+header button {
+    background-color: #00E5E5;
+    padding: 10px 25px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border: 1px solid #00E5E5;
+    font-weight:bold ;
+    display: flex;
+    align-content: center;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+
+.navbar>ion-icon {
+    color: white;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+/* 1° conteiner */
+
+.container {
+    color: white;
+    display: flex;
+    margin-top: 30px;
+    padding: 0 250px;
+    
+}
+
+.text {
+    margin-top: 200px;
+}
+
+.container h1 {
+    font-size: 60px;
+    line-height: 80px;
+}
+
+
+.container p {
+    line-height: 30px;
+    margin: 20px 0;
+    font-size: 20px;
+    width: 60%;
+}
+
+
+#img-hero {
+    width: 650px;
+}
+
+.container ul {
+    padding: 0 20px;
+    margin-bottom: 30px;
+    
+}
+
+.container li {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.container button {
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #00E5E5;
+    border: 1px solid #00E5E5;
+    font-size: 17px;
+    cursor: pointer;
+   
+    
+}
+
+.container button> ion-icon {
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+    font-weight: 700;
+
+}
+
+/* 2° conteiner */
+
+.application {
+    color: white;
+    text-align: center;
+    background: #101023;
+    background: -moz-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: -webkit-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: linear-gradient(45deg, #101023 0%, #192155 100%);
+    padding: 80px 250px;
+
+}
+
+.application h1 {
+    font-size: 50px;
+    padding: 20px 0;
+}
+.application>div:first-child p {
+    margin: 0 70px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.line {
+    margin: 40px 0 ;
+    text-align: left;
+    display: flex;
+    
+
+}
+.step {
+    border: solid 2px #C3237B;
+    margin: 0 20px;
+    width: 400px;
+    padding: 10px;
+    padding-top: 20px;
+    height: 180px;
+    border-radius: 20px;
+    background: #101023;
+    background: -moz-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: -webkit-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: linear-gradient(45deg, #101023 0%, #192155 100%);
+}
+
+.ins span {
+    font-size: 50px;
+    color: #EE0BB6;
+    padding: 10px;
+    
+}
+
+.ins {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ins h2 {
+    font-size: 20px;
+}
+
+.step p {
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+#height {
+    border: solid 2px #C3237B;
+    margin: 0 20px;
+    width: 400px;
+    padding: 10px;
+    padding-top: 20px;
+    height: 150px;
+    border-radius: 20px;
+    background: #101023;
+    background: -moz-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: -webkit-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: linear-gradient(45deg, #101023 0%, #192155 100%);
+}
+
+.application button {
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #00E5E5;
+    border: 1px solid #00E5E5;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.application button>ion-icon {
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+    font-weight: 700;
+}
+
+/* Container 3 */
+
+.courses {
+    background: #101023;
+    background: -moz-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: -webkit-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: linear-gradient(45deg, #101023 0%, #192155 100%);
+    padding: 0 250px;
+    padding-bottom: 80px;
+} 
+
+
+.courses>div:first-child {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.courses>div:first-child>h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.courses>div:first-child>p {
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.slide {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.date {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.date h3 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.date p {
+    font-size: 18px;
+    font-weight: bold;
+    color:#34363F;
+    margin-bottom: 30px;
+}
+.date button {
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #7F0370;
+    color: white;
+    border: solid 1px #7F0370;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.date span {
+    color: #950484;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 250px;
+    color: white;
+    background-color: #192155;
+    padding-bottom: 0;
+}
+
+.ready {
+    width: 40%;
+    
+}
+
+.ready h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.ready h1 {
+    font-size: 40px;
+    margin-bottom: 30px
+}
+.ready p {
+    line-height: 30px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.question {
+    width: 50%;
+    padding: 20px;
+    
+}
+
+.personal {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+}
+
+.personal input{
+    margin: 10px 15px;
+    font-size: 18px;
+    padding: 10px ;
+    border-radius: 5px;
+}
+
+.question p {
+    font-size: 14px;
+    padding-left: 15px;
+    margin: 5px 0;
+    
+}
+
+.question>p>span {
+    color: red;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.selection input {
+    display: inline;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.selection span {
+    padding-left: 15px;
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.question select {
+    padding: 10px;
+    margin: 10px 15px;
+    width: 70%;
+    border: solid 1px white;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#final-p a {
+    color: #1717E0;
+}
+
+#final-p input{
+    margin-right: 8px;
+}
+.question button{
+    padding: 10px 20px;
+    background-color: #00FFFF;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 50px 200px;
+    cursor: pointer;
+    
+}
+
+/* Container 4 */
+
+.carosel {
+    background-color: #101023;
+    padding: 50px 250px;
+}
+
+.carosel h1 {
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+    font-size: 50px;
+}
+
+.logo-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+.logo-bar img {
+    margin: auto;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.point i {
+    color: rgb(54, 54, 54);
+    font-size: 6px;
+    margin: 0 5px;
+    
+}
+
+.point {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.point i:hover {
+    color:#d128b2 ;
+    cursor: pointer;
+}
+
+
+/*Container Ambassador */
+
+.ambassador {
+    display: flex;
+    background: #101023;
+    background: -moz-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: -webkit-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: linear-gradient(45deg, #101023 0%, #192155 100%);
+    padding: 80px 250px;
+    
+}
+
+.profilo img {
+    width: 50px;
+    height: 50px;
+}
+
+.presentation {
+    padding: 20px;
+    width: 40%;
+}
+
+.presentation h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.presentation p {
+    color: white;
+    width: 50%;
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+
+.presentation>ion-icon {
+    color: #00FFFF;
+    font-size: 25px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.presentation button {
+    background-color: #00FFFF;
+    padding: 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.profilo {
+    background-color: white;
+    height: 170px;
+    width: 350px;
+    padding: 30px 40px 60px;
+    border-radius: 10px;
+    margin: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.border>div {
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.profilo h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.profilo p {
+    font-size: 13px;
+    color: grey;
+    line-height: 20px;
+}
+
+.profilo ion-icon {
+   color: #ff0df6;
+    font-size: 30px;
+}
+
+.border {
+    border-bottom: solid 1px lightgrey;
+    padding-bottom: 20px;
+}
+
+/* Container 7 */
+
+.change-life {
+    padding: 100px 250px;
+    text-align: center;
+    background: #2D27DF;
+    background: -moz-linear-gradient(45deg, #2D27DF 0%, #7125B2 50%, #CB2376 100%);
+    background: -webkit-linear-gradient(45deg, #2D27DF 0%, #7125B2 50%, #CB2376 100%);
+    background: linear-gradient(45deg, #2D27DF 0%, #7125B2 50%, #CB2376 100%);
+}
+
+.change-life h1 {
+    font-size: 48px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+.change-life p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 70px;
+
+}
+
+.change-life button {
+    background-color: #00E5E5;
+    padding: 15px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border: 1px solid #00E5E5;
+    font-weight:bold;
+    cursor: pointer;
+    font-size: 17px;
+    
+}
+
+.change-life>button> ion-icon {
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+    
+}
+
+/* Footer */
+
+footer {
+    background: #101023;
+    background: -moz-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: -webkit-linear-gradient(45deg, #101023 0%, #192155 100%);
+    background: linear-gradient(45deg, #101023 0%, #192155 100%);
+    padding: 80px 250px;
+}
+
+.final {
+    display: flex;
+    justify-content: space-between;
+}
+
+.final>div:first-child {
+    display: flex;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin: 0 50px;
+}
+
+.link a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.link a:hover {
+    color: #00FFFF;
+}
+
+.close {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+footer ion-icon {
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 10px;
+}
+
+footer h4 {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+
+footer>h4>span {
+    color: #00FFFF;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
